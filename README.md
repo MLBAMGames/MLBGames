@@ -59,7 +59,6 @@ If you run MLBGames on Windows 7 you will probably need to install:
 In the release page, [download](#download) the complete version includes:
 
 - Our proxy [mlbam-proxy](https://github.com/MLBAMGames/go-mlbam-proxy)
-- Our Windows-Hosts-File editor [mlbam-host](https://github.com/MLBAMGames/go-mlbam-hosts) (if you have issues with our proxy)
 - Our app upater
 - Media player MPV
 - Streamer Streamlink
@@ -91,7 +90,7 @@ Use the refresh button (right side) to refresh the current day's games.
 
 Game panels will have a different frame color based on their game status (scheduled, pregame, live, ended).
 
-Games broadcasting will be shown with a blue border:
+Games broadcasting will be shown with a red border:
 
 ![image](https://raw.githubusercontent.com/MLBAMGames/MLBGames/master/game-live-panel.png)
 
@@ -108,10 +107,6 @@ Features on the panel:
 
 Game panels can be customized to show or hide information. It can be changed in the settings menu.
 
-## _Standings_
-
-It will show League, Conference, Division or Wild card standings for any season. You can also display the league standing for all teams in Games tab by turning ON the option **Standing rank** in Settings tab.
-
 ## _Settings_
 
 ### _Customize Game panels_
@@ -121,12 +116,11 @@ MLBGames gives you options to change how a game panel will appear.
 | Option                    | Required game statuses to work | Default value |
 | :------------------------ | :----------------------------- | :-----------: |
 | Order by live games first | Today's games                  |     `ON`      |
-| Live remaining time       | Live games                     |     `ON`      |
+| Live innings state        | Live games                     |     `ON`      |
 | Live scores               | Live games                     |     `OFF`     |
 | Series record             | Live and past series games     |     `ON`      |
 | Teams city abbreviation   | Upcoming, live and past games  |     `OFF`     |
 | Final scores              | Past games                     |     `OFF`     |
-| Standing rank (League)    | All                            |     `OFF`     |
 
 ### _Stream Quality_
 
@@ -145,7 +139,7 @@ The selected value will define which video quality will be sent to your media pl
 
 The Rewind/Replay feature is only available for **Live games only** and it's good way to **prevent a live stream from lagging** because you set the stream _X_ minutes behind so the delay gives you a nice buffer.
 
-If you see a blue game panel with a ![image](https://raw.githubusercontent.com/MLBAMGames/MLBGames/master/live-button.png) icon in the left corner that means you will have access to the Replay or Rewind feature. To use the feature, you have click on the icon (top-left corner of the game panel), and click on a stream to start watching.
+If you see a red game panel with a ![image](https://raw.githubusercontent.com/MLBAMGames/MLBGames/master/live-button.png) icon in the left corner that means you will have access to the Replay or Rewind feature. To use the feature, you have click on the icon (top-left corner of the game panel), and click on a stream to start watching.
 
 - ![image](https://raw.githubusercontent.com/MLBAMGames/MLBGames/master/rewind-button.png)  Rewind: click it once.
 - ![image](https://raw.githubusercontent.com/MLBAMGames/MLBGames/master/replay-button.png)  Replay: click it twice.
@@ -159,7 +153,7 @@ If you use the rewind or replay feature and you want to change the default behav
 
 If Replay is selected, it will start the stream from the selected value
 
-- When the game starts (drops the puck) - _7:10PM for a game scheduled at 7PM_
+- When the game starts (play ball) - _7:10PM for a game scheduled at 7PM_
 - When the event starts (game time) - _7:00PM for a game scheduled at 7PM_
 - At the beginning of the stream - _Around 6:30PM (pregame) for a game starting at 7PM_
 
@@ -238,7 +232,7 @@ If you wish to customise the way your player or the streamer opens, turn on one 
 
 ### _Ad Detection_
 
-MLBGames doesn't use any Ad Detection by default, but you can activate it and select the app you want to use during commercials. If you don't use any, it's better if you keept the Ad Detection disabled.
+MLBGames doesn't use any Ad Detection by default, but you can activate it and select the app you want to use during commercials. If you don't use any, it's better if you keep the Ad Detection disabled.
 
 Ad detection supports these applications:
 

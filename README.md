@@ -15,7 +15,7 @@ Enjoy!
 
 ![image](https://raw.githubusercontent.com/MLBAMGames/MLBGames/master/ui.png)
 
-## _Index_
+# _Index_
 
 - [First use](#first-use)
   - [Requirements](#requirements)

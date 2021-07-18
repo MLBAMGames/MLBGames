@@ -59,6 +59,7 @@ If you run MLBGames on Windows 7 you will probably need to install:
 In the release page, [download](#download) the complete version includes:
 
 - Our proxy [mlbam-proxy](https://github.com/MLBAMGames/go-mlbam-proxy)
+- Our Windows-Hosts-File editor [mlbam-host](https://github.com/MLBAMGames/go-mlbam-hosts) (if you have issues with our proxy)
 - Our app upater
 - Media player MPV
 - Streamer Streamlink

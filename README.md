@@ -71,7 +71,7 @@ If you choose the simplified version instead of the complete version, you'll nee
 
 ## _Is this app safe?_
 
-Yes, it is. The server only responds in plain text and won't harm your PC. You can verify yourself by inspecting the code.
+Yes, it is. The server only responds in plain text and won't harm your PC. You can verify yourself by inspecting [the code](https://github.com/MLBAMGames/MLBAMGames).
 
 # _Documentation_
 
@@ -222,7 +222,7 @@ More can be added, but we are waiting for contributions.
 
 Contribute:
 
-> If you want to contribute. Translate the file `MLBAMGames/MLBGames/English.resx`. It can be modified in Visual Studio, remove any lines tagged as Console lines (these are not translated), rename the file and open a Pull Request.
+> If you want to contribute. Translate the file [`MLBAMGames/MLBGames/English.resx`](https://github.com/MLBAMGames/MLBAMGames/blob/main/MLBGames/English.resx). It can be modified in Visual Studio, remove any lines tagged as Console lines (these are not translated), rename the file and open a Pull Request.
 
 ### _Arguments_
 
@@ -268,9 +268,7 @@ Support by the reddit community :
 
 # _Contribute_
 
-MLBGames is coded in VB.NET using Visual Studio and .Net Framework 4.5. If you want to contribute : [Follow the guidelines](https://github.com/MLBAMGames/MLBAMGames/CONTRIBUTING.md)
-
-Thanks to our [contributors](https://github.com/MLBAMGames/MLBAMGames/graphs/contributors)
+MLBGames is coded in VB.NET using Visual Studio and .Net Framework 4.5. If you want to contribute : [Follow the guidelines](https://github.com/MLBAMGames/MLBAMGames/blob/main/CONTRIBUTING.md)
 
 # _Donation_
 
